@@ -1,4 +1,4 @@
-# TERRAFORM + AZURE PIPELINES + SECURITY PROJECT
+# TERRAFORM + AZURE PIPELINES + SECURITY
 
 - Provisioned Azure infrastructure using Terraform infrastructure as code
 - Stored the terraform state file in a remote backend in an azure container
