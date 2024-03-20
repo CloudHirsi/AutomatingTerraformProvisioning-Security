@@ -1,6 +1,6 @@
-My Project
+# TERRAFORM + AZURE PIPELINES PROJECT
 
-## Effectively automated the build process for my Terraform infrastructure while providing insights into code quality and security through SonarCloud integration.
+## Effectively automated the build process for my Terraform infrastructure while providing insights into code quality and security through the integration of SonarCloud SAST scanning.
 
 ## Terraform Configuration:
 
