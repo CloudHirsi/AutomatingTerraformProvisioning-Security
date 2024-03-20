@@ -1,6 +1,11 @@
 # TERRAFORM + AZURE PIPELINES PROJECT
 
-## Effectively automated the build process for my Terraform infrastructure while providing insights into code quality and security through the integration of SonarCloud SAST scanning.
+- Provisioned Azure infrastructure using Terraform infrastructure as code
+- Stored the terraform state file in a remote backend in an azure container
+- Effectively automated the build process for my Terraform infrastructure using Azure Pipelines
+- Provided insights into code quality and security through the integration of SonarCloud SAST scanning
+- Published the build as an artifact and configured continuous deployment to be triggered by the build artifact and deploy the Terraform infrastructure.
+- Added another stage to my release pipeline to automatically cleanup the resources on approval
 
 ## Terraform Configuration:
 
