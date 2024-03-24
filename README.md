@@ -50,8 +50,7 @@ stages:
         backendAzureRmKey: 'prod.terraform.tfstate'
 
     - task: SonarCloudAnalyze@1
-      inputs:
-        jdkversion: 'JAVA_HOME_17_X64'
+      inputs: none
 
     - task: SonarCloudPublish@1
       inputs:
